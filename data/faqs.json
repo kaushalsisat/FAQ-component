@@ -1,0 +1,62 @@
+[
+    {
+        "Id":1,
+        "question":"Q.1 What is react?",
+        "answer": "React is a JavaScript library for building user interfaces. It follows a component-based architecture and uses a virtual DOM for efficient updates."
+        
+    },
+    {
+        "Id":2,
+        "question":"Q.2 What are React components?",
+        "answer": "Components are reusable UI elements in React. They can be functional (useState, useEffect) or class-based (this.state)."
+        
+    },
+    {
+        "Id":3,
+        "question":"Q.3 What is JSX",
+        "answer": "JSX (JavaScript XML) allows writing HTML-like syntax inside JavaScript, making UI development more readable and declarative."
+        
+    },
+    {
+        "Id":4,
+        "question":"Q.4 What is the Virtual DOM",
+        "answer": "The Virtual DOM is a lightweight copy of the real DOM. React updates it first, then efficiently updates only the changed parts of the actual DOM."
+        
+    },
+    {
+        "Id":5,
+        "question":"Q.5 What are props in React?",
+        "answer": "Props (short for properties) are read-only data passed from a parent to a child component to make components reusable and dynamic."
+        
+    },
+    {
+        "Id":6,
+        "question":"Q.6 What is state in React?",
+        "answer": "State is a component’s private data that can change over time, triggering a re-render. Managed using useState in functional components."
+        
+    },
+    {
+        "Id":7,
+        "question":"Q.7 What is the difference between props and state?",
+        "answer": "Props are read-only, passed from parent to child.State is mutable, managed within the component itself."
+        
+    },
+    {
+        "Id":8,
+        "question":"Q.8 What is useEffect in React?",
+        "answer": "useEffect is a React Hook used for side effects (e.g., fetching data, event listeners). It runs after render and can have dependencies."
+        
+    },
+    {
+        "Id":9,
+        "question":"Q.9 What is React Router?",
+        "answer": "React Router is a library for client-side routing, allowing navigation without refreshing the page using components like <BrowserRouter>, <Route>, and <Link>."
+        
+    },
+    {
+        "Id":10,
+        "question":"Q.10 What is Redux",
+        "answer": "Redux is a state management library that stores the application’s state in a centralized store, making state predictable and manageable across components."
+        
+    }
+]

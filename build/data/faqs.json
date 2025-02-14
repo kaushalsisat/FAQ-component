@@ -50,7 +50,7 @@
     {
         "Id":9,
         "question":"Q.9 What is React Router?",
-        "answer": "React Router is a library for client-side routing, allowing navigation without refreshing the page using components like <BrowserRouter>, <Route>, and <Link>."
+        "answer": "React Router is a library for client-side routing, allowing navigation without refreshing the page using components like BrowserRouter, Route, and Link."
         
     },
     {

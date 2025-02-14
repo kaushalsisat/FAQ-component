@@ -7,7 +7,7 @@ const FAQ = () => {
 
   // Fetch data from the JSON file
   useEffect(() => {
-    fetch("/public/data/faqs.json") // Path of faqs file
+    fetch("/faqs.json") // Path of faqs file
       .then((response) => response.json())
       .then((data) => setFaqs(data))
       .catch((error) => console.error("Error fetching data:", error));
